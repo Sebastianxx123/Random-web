@@ -1,0 +1,60 @@
+  h1 {
+    color: rgb(44, 212, 14);
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .instagram-div  {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .instagram-button {
+    background-color:rgb(0, 0, 0);
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    align-items: end;
+  }
+
+
+
+
+  /* Takto funguje CSS Class */
+
+  /* .instagram-div { 
+    background-color: red;
+  }
+
+  .instagram-div-blue { 
+    background-color: blue;
+  }
+
+  .instagram-div-green { 
+    background-color: green;
+  }
+
+  .instagram-button { 
+    width: 300px;
+  } */
+  

@@ -1,0 +1,208 @@
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #000;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('bmw-x3.jpg') no-repeat center center/cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 6rem;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.hero .buttons button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero .buttons button:nth-child(2) {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+/* "Nájdite svoje BMW" section styles */
+.find-bmw {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 50px; /* Increase this value to move the section lower */
+}
+
+.find-bmw h1 {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.find-bmw h2 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.find-bmw .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.find-bmw .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.find-bmw .box img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.find-bmw .box h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.find-bmw .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background-color: white;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.find-bmw .button:hover {
+    background-color: #f0f0f0;
+}
+
+/* New section styles */
+.new-section {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.new-section .new-box {
+    flex: 1;
+    padding: 20px;
+}
+
+.new-section .new-box h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.new-section .new-box p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.new-section .new-box .buttons button {
+    background-color: #0066cc;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.new-section .new-box .buttons button:nth-child(2) {
+    background-color: transparent;
+    border: 2px solid #0066cc;
+}
+
+.new-section .new-image {
+    flex: 1;
+    text-align: center;
+}
+
+.new-section .new-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.new-video {
+    width: 100%; /* Uprav podľa potreby */
+    max-width: 800px; /* Uprav podľa potreby */
+    margin: 0 auto; /* Precentrovanie */
+}
+
+#new-video {
+    width: 100%;
+    height: auto; /* Udržuje pomer strán */
+}
